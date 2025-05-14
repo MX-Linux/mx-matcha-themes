@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=mx-matcha-dark
+Comment=A dark modern design theme adapted from the Matcha series of themes by Vinceliuice
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=mx-matcha-dark
+MetacityTheme=mx-matcha-dark
+IconTheme=
+CursorTheme=
+ButtonLayout=menu:minimize,maximize,close

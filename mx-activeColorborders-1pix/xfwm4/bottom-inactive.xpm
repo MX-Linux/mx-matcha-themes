@@ -1,0 +1,11 @@
+/* XPM   - middle colour is a not so dark grey like dusk, 293538 is one of the mx comfort greys, similar to adapta nokto*/
+static char * bottom_inactive_xpm[] = {
+"24 5 3 1",
+"o	c #29353B",
+".	c #EDECEB",
+"+	c #9598A4",
+"oooooooooooooooooooooooo",
+"........................",
+"........................",
+"++++++++++++++++++++++++",
+"++++++++++++++++++++++++"};
