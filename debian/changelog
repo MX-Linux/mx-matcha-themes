@@ -1,3 +1,10 @@
+mx-matcha-themes (25.05.02) mx; urgency=medium
+
+  [asqwerth]
+  * change thunar panel coloring
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 14 May 2025 18:30:14 -0400
+
 mx-matcha-themes (25.05.01) mx; urgency=medium
 
   * Initial release (asqwerth)

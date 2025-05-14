@@ -9142,8 +9142,8 @@ window.thunar .sidebar {
 }
 
 window.thunar .sidebar treeview.view {
-  background-color: #29353B;
-  color: #ffffff;
+  background-color: #B2BABE;
+  color: #000000;
 }
 
 window.thunar .sidebar treeview.view:hover {
