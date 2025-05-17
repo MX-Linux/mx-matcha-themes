@@ -1,3 +1,12 @@
+mx-matcha-themes (25.05.03) mx; urgency=medium
+
+  [asqwerth]
+  * update to latest
+  * fix to some xfwm themes
+  * file-roller themeing fixes (gtk4)
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 17 May 2025 11:07:46 -0400
+
 mx-matcha-themes (25.05.02) mx; urgency=medium
 
   [asqwerth]
