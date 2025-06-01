@@ -1,22 +1,3 @@
-/* This stylesheet is generated, DO NOT EDIT */
-/* Copyright 2009, 2015 Red Hat, Inc.
- *
- * Portions adapted from Mx's data/style/default.css
- *   Copyright 2009 Intel Corporation
- *
- * This program is free software; you can redistribute it and/or modify it
- * under the terms and conditions of the GNU Lesser General Public License,
- * version 2.1, as published by the Free Software Foundation.
- *
- * This program is distributed in the hope it will be useful, but WITHOUT ANY
- * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
- * more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with this program; if not, write to the Free Software Foundation,
- * Inc., 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
- */
 /* Global Values */
 stage {
   font-size: 11pt;
@@ -316,6 +297,124 @@ StEntry StLabel.hint-text {
 }
 
 /* Buttons */
+/* copy 151-252*/
+.quick-settings-system-item .icon-button, .quick-settings-system-item .message-notification-group .message-collapse-button, .message-notification-group .quick-settings-system-item .message-collapse-button, .lg-obj-inspector-button, #LookingGlassDialog > #Toolbar .lg-toolbar-button, .hotplug-notification-item, .icon-button, .message-notification-group .message-collapse-button, .button, .notification-button {
+  text-shadow: none;
+  color: #e6ebef;
+  background-color: #2c2f39;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.lg-obj-inspector-button:focus, #LookingGlassDialog > #Toolbar .lg-toolbar-button:focus, .hotplug-notification-item:focus, .icon-button:focus, .message-notification-group .message-collapse-button:focus, .button:focus, .notification-button:focus {
+  text-shadow: none;
+  color: #e6ebef;
+  background-color: #2c2f39;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+border-radius: 0px;
+  box-shadow: none !important;
+}
+
+.lg-obj-inspector-button:hover, #LookingGlassDialog > #Toolbar .lg-toolbar-button:hover, .hotplug-notification-item:hover, .icon-button:hover, .message-notification-group .message-collapse-button:hover, .button:hover, .notification-button:hover {
+  text-shadow: none;
+  color: #e6ebef;
+  background-color: #383a44;
+  border: 1px solid #4a4d56;
+border-radius: 0px;
+  box-shadow: none;
+}
+
+.lg-obj-inspector-button:hover:focus, #LookingGlassDialog > #Toolbar .lg-toolbar-button:hover:focus, .hotplug-notification-item:hover:focus, .icon-button:hover:focus, .message-notification-group .message-collapse-button:hover:focus, .button:hover:focus, .notification-button:hover:focus {
+  text-shadow: none;
+  color: #e6ebef;
+  background-color: #383a44;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+border-radius: 0px;
+  box-shadow: none !important;
+}
+
+
+.lg-obj-inspector-button:checked:hover, #LookingGlassDialog > #Toolbar .lg-toolbar-button:checked:hover, .hotplug-notification-item:checked:hover, .icon-button:checked:hover, .message-notification-group .message-collapse-button:checked:hover, .button:checked:hover, .notification-button:checked:hover {
+  text-shadow: none;
+  color: #ffffff;
+  background-color: #68a2e6;
+  border: 1px solid #7eafe9;
+border-radius: 0px;
+  box-shadow: none;
+}
+
+.lg-obj-inspector-button:inactive {
+  text-shadow: none;
+  color: rgba(230, 235, 239, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0);
+border-radius: 0px;
+  background-color: rgba(44, 47, 57, 0.55);
+  box-shadow: none;
+}
+
+.lg-obj-inspector-button:insensitive, #LookingGlassDialog > #Toolbar .lg-toolbar-button:insensitive, .hotplug-notification-item:insensitive, .icon-button:insensitive, .message-notification-group .message-collapse-button:insensitive, .button:insensitive, .notification-button:insensitive {
+  text-shadow: none;
+  color: rgba(230, 235, 239, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 0px;
+  background-color: rgba(44, 47, 57, 0.55);
+  box-shadow: none;
+}
+
+.icon-button.flat, .message-notification-group .flat.message-collapse-button, .button.flat {
+  text-shadow: none;
+  color: #e6ebef;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.icon-button.flat:focus, .message-notification-group .flat.message-collapse-button:focus, .button.flat:focus {
+  text-shadow: none;
+  color: #e6ebef;
+  background-color: rgba(230, 235, 239, 0.05);
+ /* border-radius: 0px;*/
+}
+
+.icon-button.flat:hover, .message-notification-group .flat.message-collapse-button:hover, .button.flat:hover {
+  text-shadow: none;
+  color: #e6ebef;
+  background-color: rgba(230, 235, 239, 0.1);
+  border: none;
+/*  border-radius: 0px;*/
+  box-shadow: none;
+}
+
+.icon-button.flat:insensitive, .message-notification-group .flat.message-collapse-button:insensitive, .button.flat:insensitive {
+  text-shadow: none;
+  color: rgba(230, 235, 239, 0.45);
+  background-color: transparent;
+  border: none;
+ /* border-radius: 0px;*/
+  box-shadow: none;
+}
+
+.icon-button.flat:selected, .message-notification-group .flat.message-collapse-button:selected, .button.flat:selected, .icon-button.flat:active, .message-notification-group .flat.message-collapse-button:active, .button.flat:active {
+  text-shadow: none;
+  color: #e6ebef;
+  background-color: rgba(230, 235, 239, 0.2);
+  border: none;
+/*  border-radius: 0px;*/
+  box-shadow: none;
+}
+
+.icon-button.flat:checked, .message-notification-group .flat.message-collapse-button:checked, .button.flat:checked {
+  text-shadow: none;
+  color: #e6ebef;
+  background-color: rgba(230, 235, 239, 0.12);
+  border: none;
+/*  border-radius: 0px;*/
+  box-shadow: none;
+}
+
+
 /* Check Boxes */
 .check-box StBoxLayout {
   spacing: .8em;
@@ -363,7 +462,7 @@ StEntry StLabel.hint-text {
 /* Slider */
 .slider {
   height: 20px;
-  color: #282b35;
+  color: #3774E4;
   -barlevel-height: 4px;
   -barlevel-background-color: #101115;
   -barlevel-border-width: 0;
@@ -376,6 +475,10 @@ StEntry StLabel.hint-text {
   -slider-handle-radius: 9px;
   -slider-handle-border-width: 1px;
   -slider-handle-border-color: rgba(0, 0, 0, 0.45);
+}
+
+.slider:hover {
+  color: #0F56D9;
 }
 
 .popup-menu-item.selected .slider, .popup-menu-item:hover .slider, .popup-menu-item:focus .slider {
@@ -490,18 +593,29 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   color: #66686e;
 }
 
+/* copy 424-431 */
 .popup-menu-content, .candidate-popup-content {
-  padding: 6px 0;
+ /* padding: 6px 0;
   margin: 0 4px 10px 8px;
-  color: #dddddd !important;
+  color: #dddddd !important;*/
+  padding: 6px 0;
+  background-color: #282A33 !important;
+  border-radius: 3px;
+  margin: 2px 7px 12px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
 .popup-menu-item {
   spacing: 6px;
   padding: 6px;
-  margin: 0;
+/*  margin: 0;
   border-radius: 0;
-  color: #aaaaaa !important;
+  color: #aaaaaa !important;*/
+  color: rgba(230, 235, 239, 0.75) !important;
+  border-radius: 0 !important;
+  border-top: none !important;
+
 }
 
 .popup-menu-item:ltr {
@@ -1812,6 +1926,49 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   max-width: 28em;
 }
 
+/* copy 3654-3680 from Qogir */
+
+.modal-dialog .modal-dialog-button-box {
+  padding: 12px;
+  background-color: #202229;
+  border-top: 1px solid #434655;
+  border-radius: 0 0 9px 9px;
+}
+
+.modal-dialog .modal-dialog-button-box .modal-dialog-button {
+  height: 37px;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  color: #D3DAE3;
+  background-color: #282A33;
+  border-radius: 3px;
+  border: 1px solid #434655;
+}
+
+.modal-dialog .modal-dialog-button-box .modal-dialog-button:hover {
+  background-color: #333641;
+}
+
+.modal-dialog .modal-dialog-button-box .modal-dialog-button:focus {
+  color: #3774E4;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* copy 3682 to 3690 from qogir*/
+
+.modal-dialog .modal-dialog-button-box .modal-dialog-button:active {
+  color: #D3DAE3;
+  background-color: #1d1e25;
+}
+
+.modal-dialog .modal-dialog-button-box .modal-dialog-button:insensitive {
+  color: rgba(211, 218, 227, 0.5);
+  background-color: #24252d;
+}
+
+
 /* End Session Dialog */
 .end-session-dialog {
   width: 30em;
@@ -2234,7 +2391,10 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel.unlock-screen .panel-corner, #panel.login-screen .panel-corner, #panel:overview .panel-corner {
-  -panel-corner-opacity: 0;
+/*  -panel-corner-opacity: 0;*/
+-panel-corner-radius: 0;
+  -panel-corner-background-color: transparent;
+  -panel-corner-border-color: transparent;
 }
 
 #panel .panel-corner {
@@ -2265,26 +2425,40 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 #panel .panel-button:hover, #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
   border-image: none;
+  border-radius: 0;
 }
 
 #panel .panel-button:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  color: #D3DAE3;
+/*  background-color: rgba(211, 218, 227, 0.08);*/
+  background-color: rgba(255, 255, 255, 0.20);
   box-shadow: none;
+  border-radius: 0;
 }
 
 #panel .panel-button:active, #panel .panel-button:active:hover, #panel .panel-button:overview, #panel .panel-button:overview:hover, #panel .panel-button:checked, #panel .panel-button:checked:hover, #panel .panel-button:focus, #panel .panel-button:focus:hover {
   background-color: rgba(255, 255, 255, 0.15);
   box-shadow: inset 0 -2px #3774E4 !important;
   text-shadow: none;
+  border-radius: 0;
 }
-
-#panel .panel-button.clock-display:active, #panel .panel-button.clock-display:overview, #panel .panel-button.clock-display:checked, #panel .panel-button.clock-display:focus {
-  background-color: rgba(255, 255, 255, 0.15);
+/*
+#panel .panel-button.clock-display:active, #panel .panel-button.clock-display:overview, #panel .panel-button.clock-display:checked {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.35);
   box-shadow: inset 0 -2px #3774E4 !important;
 }
+*/
+#panel .panel-button.clock-display:hover, #panel .panel-button.clock-display:focus {
+  color: #D3DAE3;
+  background-color: rgba(255, 255, 255, 0.20) !important;
+  box-shadow: none;
+}
 
+/* this is what themes the centre-panel time and date button/display blue when you click on it */
 #panel .panel-button.clock-display:active .clock, #panel .panel-button.clock-display:overview .clock, #panel .panel-button.clock-display:checked .clock, #panel .panel-button.clock-display:focus .clock {
-  background-color: transparent;
+  color: #ffffff;
+  background-color: #3774E4;
   box-shadow: none !important;
 }
 
@@ -2819,9 +2993,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border-radius: 0px 15px 15px 0px;
 }
 
+/*  commented out this chunk and copied over Qogir's page navigation arrow lines
 .page-navigation-arrow {
   color: #efefef;
 }
+
 
 .page-navigation-arrow > StIcon {
   margin: 6px;
@@ -2833,7 +3009,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .page-navigation-arrow:insensitive > StIcon {
-  color: #66686e;
+  color: #ffffff;
   border-color: #14161b;
   background-color: #22242d;
   box-shadow: none;
@@ -2858,6 +3034,34 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   icon-shadow: none;
   box-shadow: none;
 }
+*/
+
+.page-navigation-arrow {
+  margin: 6px;
+  padding: 18px;
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  transition-duration: 100ms;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+}
+
+.page-navigation-arrow > StIcon {
+  color: white;
+}
+
+.page-navigation-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: white;
+}
+
+.page-navigation-arrow:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+
 
 /* Workspace pager */
 .workspace-thumbnails {
@@ -3270,15 +3474,40 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .lg-obj-inspector-title {
   spacing: 6px;
 }
+/* copied specs/settings lines from 151-157 qogir - these lines are impt to ensure the big buttons in system dropdown are not round and are comfort blue*/
 
 .lg-obj-inspector-button {
-  border: 1px solid rgba(0, 0, 0, 0.7);
-  padding: 4px;
-  border-radius: 3px;
+/*  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 0px;
+  padding: 4px;*/
+/* text-shadow: none;
+  color: #e6ebef;
+  background-color: #2c2f39;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0px;
+  box-shadow: none;*/
+  text-shadow: none;
+  color: #ffffff;
+  background-color: #2c2f39;
+  border: 1px solid #68a2e6;
+border-radius: 0px;
+  box-shadow: none;
+
 }
 
 .lg-obj-inspector-button:hover {
   border: 1px solid #ffffff;
+  border-radius: 0px;
+}
+
+/* copy 183-189 from qogir - sets colour of active/selected button in systray dropdown, but bbuttons still round  AHA! I added border radius 0px and the wired connection active arrow button not round. But vpn arrow inactive button still round.  Need to add same line for inactive inspector-button*/
+.lg-obj-inspector-button:selected, #LookingGlassDialog > #Toolbar .lg-toolbar-button:selected, .hotplug-notification-item:selected, .icon-button:selected, .message-notification-group .message-collapse-button:selected, .button:selected, .notification-button:selected, .lg-obj-inspector-button:active, #LookingGlassDialog > #Toolbar .lg-toolbar-button:active, .hotplug-notification-item:active, .icon-button:active, .message-notification-group .message-collapse-button:active, .button:active, .notification-button:active, .lg-obj-inspector-button:checked, #LookingGlassDialog > #Toolbar .lg-toolbar-button:checked, .hotplug-notification-item:checked, .icon-button:checked, .message-notification-group .message-collapse-button:checked, .button:checked, .notification-button:checked {
+  text-shadow: none;
+  color: #ffffff;
+  background-color: #3774E4;
+  border: 1px solid #68a2e6;
+border-radius: 0px;
+  box-shadow: none;
 }
 
 #lookingGlassExtensions {
@@ -3391,8 +3620,8 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   box-shadow: none;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
-  background-color: #3774E4;
-  border-color: #258cd1;
+  /*background-color: #3774E4;
+  border-color: #258cd1;*/
 }
 
 .login-dialog .modal-dialog-button:default:active,
@@ -3403,8 +3632,8 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   text-shadow: none;
   icon-shadow: none;
   box-shadow: none;
-  background-color: #1d6fa5;
-  border-color: #1d6fa5;
+  /*background-color: #1d6fa5;
+  border-color: #1d6fa5;*/
 }
 
 .login-dialog .modal-dialog-button:default:insensitive,
@@ -3416,8 +3645,8 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   text-shadow: none;
   icon-shadow: none;
   border-color: #196090;
-  background-color: #196090;
-  color: rgba(255, 255, 255, 0.7);
+  /*background-color: #196090;
+  color: rgba(255, 255, 255, 0.7);*/
 }
 
 .login-dialog .cancel-button,
