@@ -1,6 +1,7 @@
 mx-matcha-themes (25.05.04) mx; urgency=medium
 
   * resolve css errors (geany)
+  * add gnome-shell features
 
  -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 31 May 2025 20:05:03 -0400
 
