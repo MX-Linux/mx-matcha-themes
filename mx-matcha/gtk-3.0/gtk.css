@@ -3081,7 +3081,7 @@ scrollbar.horizontal button.up {
 }
 
 scrollbar slider {
-  min-width: 6px;
+  min-width: 8px;
   min-height: 6px;
   margin: -1px;
   border: 4px solid transparent;
@@ -3145,6 +3145,7 @@ scrollbar.overlay-indicator.dragging, scrollbar.overlay-indicator.hovering {
 
 scrollbar.horizontal slider {
   min-width: 40px;
+    min-height: 8px;
 }
 
 scrollbar.vertical slider {
@@ -4602,7 +4603,7 @@ tooltip {
 }
 
 tooltip.background {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(245, 245, 216, 0.95);
   background-clip: padding-box;
 }
 
@@ -9142,7 +9143,7 @@ window.thunar .sidebar {
 }
 
 window.thunar .sidebar treeview.view {
-  background-color: #B2BABE;
+  background-color: #cacdd0;
   color: #000000;
 }
 

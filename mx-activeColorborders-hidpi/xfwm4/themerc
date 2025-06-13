@@ -5,6 +5,8 @@
 # dark blue in comfort titlebar= #1d2324 #
 ##################################
 
+title_font=Noto Sans Bold 14
+
 active_text_color=#ffffff
 inactive_text_color=#000000
 button_offset=0

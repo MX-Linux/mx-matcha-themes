@@ -3925,7 +3925,7 @@ scrollbar > range > trough {
 }
 
 scrollbar > range > trough > slider {
-  min-width: 6px;
+  min-width: 8px;
   min-height: 6px;
   margin: -1px;
   padding: 0;
@@ -3992,6 +3992,7 @@ scrollbar.overlay-indicator.dragging, scrollbar.overlay-indicator.hovering {
 
 scrollbar.horizontal > range > trough > slider {
   min-width: 40px;
+    min-height: 8px;
 }
 
 scrollbar.vertical > range > trough > slider {
@@ -5905,7 +5906,7 @@ tooltip {
 }
 
 tooltip.background {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(80, 87, 101, 0.95);
   background-clip: padding-box;
   border: none;
   color: white;

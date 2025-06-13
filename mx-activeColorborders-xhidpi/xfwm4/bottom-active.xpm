@@ -1,12 +1,8 @@
 /* XPM */
 static char * bottom_active_xpm[] = {
-"55 14 2 1",
+"55 10 2 1",
 " 	c #29353B",
 ".	c #0f56d9 s active_color_1",
-"                                                       ",
-"                                                       ",
-"                                                       ",
-"                                                       ",
 "                                                       ",
 "                                                       ",
 "                                                       ",

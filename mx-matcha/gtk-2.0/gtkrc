@@ -2,21 +2,26 @@
 
 gtk-color-scheme = "base_color: #eeeff4"
 gtk-color-scheme = "bg_color: #dedfe3"
-gtk-color-scheme = "tooltip_bg_color: #dedfe3"
-gtk-color-scheme = "selected_bg_color: #0f56d9"
 gtk-color-scheme = "text_color: #000000"
 gtk-color-scheme = "fg_color: #000000"
+
+gtk-color-scheme = "tooltip_bg_color: #F5F5D8"
 gtk-color-scheme = "tooltip_fg_color: #000000"
+
+gtk-color-scheme = "selected_bg_color: #0f56d9"
 gtk-color-scheme = "selected_fg_color: #ffffff"
+
 gtk-color-scheme = "menubar_bg_color: #1d2324"
 gtk-color-scheme = "menubar_fg_color: #ffffff"
 gtk-color-scheme = "toolbar_bg_color: #dedfe3"
 gtk-color-scheme = "toolbar_fg_color: #000000"
+
 gtk-color-scheme = "menu_bg_color: #1d2324"
 gtk-color-scheme = "menu_fg_color: #ffffff"
 gtk-color-scheme = "panel_bg_color: #dedfe3"
 gtk-color-scheme = "panel_fg_color: #000000"
 gtk-color-scheme = "link_color: #5c9e94"
+
 gtk-color-scheme = "btn_bg_color: #b5babc"
 gtk-color-scheme = "btn_fg_color: #000000"
 gtk-color-scheme = "titlebar_bg_color: #1d2324"
@@ -24,6 +29,11 @@ gtk-color-scheme = "titlebar_fg_color: #ffffff"
 gtk-color-scheme = "primary_caret_color: #1d2324"
 gtk-color-scheme = "secondary_caret_color: #1d2324"
 gtk-color-scheme = "accent_bg_color: #0f56d9"
+
+#ADDED 11 June 2025
+gtk-color-scheme = "prelight_color:#7CB7F0"
+gtk-color-scheme = "prelight_fg_color:#000000"
+
 
 # Default Style
 
@@ -216,8 +226,8 @@ style "clearlooks-notebook" = "clearlooks-notebook-bg" {
 
 style "murrine-button"  = "murrine-wider" {
 	bg[NORMAL] = @btn_bg_color
-	bg[PRELIGHT] = shade (1.10, @btn_bg_color)
-	bg[SELECTED] = mix (0.5, @selected_bg_color, @bg_color)
+	bg[PRELIGHT] = shade (1.05, @prelight_color)
+	bg[SELECTED] = mix (0.65, @selected_bg_color, @bg_color)
 	bg[ACTIVE] = shade (0.95, @btn_bg_color)
 	bg[INSENSITIVE] = shade (0.75, @btn_bg_color)
     #xthickness = 4
@@ -348,8 +358,9 @@ style "murrine-spinbutton" = "murrine-button" {
 
 style "clearlooks-radiocheck" = "murrine-default" {
 	bg[SELECTED] = @base_color
-	bg[PRELIGHT] = @bg_color
-
+#	bg[PRELIGHT] = @bg_color
+#	LINE BELOW -- subtle hover effect on radiobox entries
+	bg[PRELIGHT] = shade (0.95, @bg_color)
 	text[NORMAL] = @accent_bg_color
 	text[PRELIGHT] = @accent_bg_color
 
@@ -498,7 +509,8 @@ style "murrine-toolbar" = "murrine-thin" {
 
 style "murrine-toolbutton" = "murrine-button" {
 	bg[NORMAL] = shade (1.08, @toolbar_bg_color)
-	bg[PRELIGHT] = shade (1.10, @toolbar_bg_color)
+#	bg[PRELIGHT] = shade (1.10, @toolbar_bg_color)
+	bg[PRELIGHT] = shade (1.05, @prelight_color)
 	bg[SELECTED] = @selected_bg_color
 	bg[ACTIVE] = shade (0.95, @toolbar_bg_color)
 	bg[INSENSITIVE] = shade (0.85, @toolbar_bg_color)

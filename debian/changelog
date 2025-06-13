@@ -1,3 +1,10 @@
+mx-matcha-themes (25.06.01) mx; urgency=medium
+
+  * thunar color adjustements
+  * border changes for xfwm themes
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 12 Jun 2025 21:09:35 -0400
+
 mx-matcha-themes (25.05.04) mx; urgency=medium
 
   * resolve css errors (geany)
