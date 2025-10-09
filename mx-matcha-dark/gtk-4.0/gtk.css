@@ -6051,7 +6051,7 @@ colorchooser .popover.osd {
 }
 
 .content-view:hover {
-	color: #ffffff
+  color: #ffffff;
   background-color: #444853;
   -gtk-icon-filter: brightness(1.2);
 }
