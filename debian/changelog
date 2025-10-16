@@ -1,3 +1,9 @@
+mx-matcha-themes (25.10.02) mx; urgency=medium
+
+  * misc. fixes (foliate)
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 15 Oct 2025 20:04:01 -0400
+
 mx-matcha-themes (25.10.01) mx; urgency=medium
 
   * minor correction to dark theme code
