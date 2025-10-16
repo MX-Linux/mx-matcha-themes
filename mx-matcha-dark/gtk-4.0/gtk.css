@@ -7817,6 +7817,9 @@ preferencesgroup > box button.background-preview-button.toggle:checked {
   margin: 2px 1px;
 }
 
+/* mx edits */
+toolbarview revealer windowhandle box headerbar { padding-top: 0px ; padding-bottom: 0px ; }
+
 @define-color theme_fg_color #ffffff;
 @define-color theme_text_color #ffffff;
 @define-color theme_bg_color #29353B;
